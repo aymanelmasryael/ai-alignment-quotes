@@ -8,6 +8,12 @@
 
 ---
 
+## Preview
+
+![AI Alignment Quotes Preview](screenshot.svg)
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
