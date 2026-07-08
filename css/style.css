@@ -156,6 +156,7 @@ body {
   color: var(--text-primary);
   font-size: 0.9rem;
   outline: none;
+  font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
 }
 
 .btn-group { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -170,7 +171,7 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
   color: var(--text-primary);
-  font-family: inherit;
+  font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
 }
 
 .btn-primary {
@@ -184,6 +185,10 @@ body {
 
 .btn-outline { border-color: var(--accent); color: var(--accent); }
 .btn-outline:hover { background: rgba(0,116,255,0.15); }
+
+.mode-btn { border-color: transparent; color: var(--text-secondary); opacity: 0.6; }
+.mode-btn:hover { opacity: 1; background: rgba(0,116,255,0.08); }
+.mode-btn.active { border-color: var(--accent); color: var(--accent); opacity: 1; }
 
 .pagination {
   display: flex;
@@ -202,9 +207,12 @@ body {
   font-weight: 500;
   transition: 0.2s;
   color: var(--text-primary);
+  font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
 }
 
 .page-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+
+.page-info { margin: 0 12px; color: var(--text-secondary); font-size: 0.85rem; }
 
 .quotes-grid {
   display: grid;
@@ -231,9 +239,46 @@ body {
   color: var(--text-primary);
   border-left: 3px solid var(--accent);
   padding-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   font-family: 'Inter', sans-serif;
   white-space: pre-line;
+}
+
+.quote-arabic {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: var(--text-primary);
+  border-right: 3px solid var(--accent);
+  padding-right: 1rem;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  white-space: pre-line;
+  text-align: right;
+}
+
+.quote-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75rem 0;
+}
+
+.quote-separator span {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--accent);
+  opacity: 0.3;
+  border-radius: 2px;
+}
+
+.bilingual-block {
+  margin-bottom: 0;
+}
+
+.placeholder-text {
+  color: var(--text-secondary);
+  font-style: italic;
 }
 
 .card-actions {
@@ -373,6 +418,84 @@ footer {
 }
 
 .quote-hero .btn { margin-top: 0.5rem; }
+
+/* Founder Philosophy Section */
+.founder-section {
+  background: var(--card-bg);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 200, 0, 0.15);
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 12px 20px -12px rgba(0,0,0,0.3);
+}
+
+.founder-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #f59e0b;
+  border: 1px solid #f59e0b;
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+.founder-quotes {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.founder-card {
+  flex: 1;
+  max-width: 480px;
+}
+
+.founder-quote-en {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  font-weight: 500;
+  font-style: italic;
+  border-left: 3px solid #f59e0b;
+  padding-left: 1rem;
+  text-align: left;
+  margin-bottom: 0.75rem;
+}
+
+.founder-quote-ar {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+  font-weight: 400;
+  border-right: 3px solid #f59e0b;
+  padding-right: 1rem;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.founder-cite {
+  font-size: 0.7rem;
+  color: #f59e0b;
+  font-family: 'JetBrains Mono', monospace;
+  opacity: 0.6;
+}
+
+.founder-divider {
+  width: 1px;
+  background: rgba(245, 158, 11, 0.15);
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .founder-quotes { flex-direction: column; }
+  .founder-divider { width: 100%; height: 1px; }
+}
 
 .concept-tag {
   font-size: 0.65rem;

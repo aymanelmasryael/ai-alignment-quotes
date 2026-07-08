@@ -41,7 +41,7 @@
     <rect x="194.38" y="194.38" width="32.4" height="32.4" fill="#0074FF"/>
   </g>
   <text x="104" y="65" font-family="Inter,sans-serif" font-weight="600" font-size="18" fill="url(#brand)">AEL · AI ALIGNMENT QUOTES</text>
-  <text x="104" y="82" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">10,000 ENGLISH INSIGHTS // ORIGINAL CORPUS</text>
+  <text x="104" y="82" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">10,000 BILINGUAL INSIGHTS // ENGLISH + العربية</text>
   <rect x="920" y="45" width="220" height="38" rx="20" fill="rgba(0,116,255,0.08)" stroke="rgba(0,116,255,0.15)" stroke-width="1"/>
   <text x="940" y="68" font-family="'Jetbrains Mono',monospace" font-size="11" fill="#0074FF" font-weight="600">10,000 AI QUOTES</text>
 
@@ -51,6 +51,14 @@
   <!-- Controls bar -->
   <rect x="40" y="130" width="220" height="34" rx="17" fill="none" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
   <text x="60" y="151" font-family="'Jetbrains Mono',monospace" font-size="11" fill="#4B6EFF">🔍 Search quotes...</text>
+
+  <!-- Mode toggle buttons -->
+  <rect x="285" y="130" width="56" height="34" rx="17" fill="none" stroke="#0074FF" stroke-width="1.5"/>
+  <text x="295" y="151" font-family="Inter,sans-serif" font-size="10" fill="#0074FF" font-weight="600">EN/AR</text>
+  <rect x="347" y="130" width="40" height="34" rx="17" fill="none" stroke="rgba(0,116,255,0.15)" stroke-width="1"/>
+  <text x="355" y="151" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">EN</text>
+  <rect x="393" y="130" width="40" height="34" rx="17" fill="none" stroke="rgba(0,116,255,0.15)" stroke-width="1"/>
+  <text x="401" y="151" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">AR</text>
 
   <!-- Buttons -->
   <rect x="830" y="130" width="60" height="34" rx="17" fill="none" stroke="rgba(0,116,255,0.15)" stroke-width="1"/>
@@ -65,62 +73,69 @@
   <text x="1122" y="151" font-family="Inter,sans-serif" font-size="10" fill="#ffffff" font-weight="500">All formats</text>
 
   <!-- Hero section -->
-  <rect x="40" y="182" width="1120" height="132" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.12)" stroke-width="1"/>
+  <rect x="40" y="182" width="1120" height="148" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.12)" stroke-width="1"/>
   <rect x="520" y="196" width="160" height="22" rx="11" fill="none" stroke="#0074FF" stroke-width="1"/>
   <text x="535" y="211" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#0074FF">⚡ Quote of the Moment</text>
-  <text font-family="Inter,sans-serif" font-size="14" fill="#EFF3FC" text-anchor="middle">
-    <tspan x="600" y="248">"Alignment is not a solution — it optimizes for density, not meaning.</tspan>
-    <tspan x="600" y="270">Left unchecked, silent failure modes multiply without warning.</tspan>
-    <tspan x="600" y="292">Interpretability is not optional — it is survival"</tspan>
+  <text font-family="Inter,sans-serif" font-size="13" fill="#EFF3FC" text-anchor="middle">
+    <tspan x="600" y="245">"Alignment is not a solution — it optimizes for density, not meaning.</tspan>
+    <tspan x="600" y="264">Left unchecked, silent failure modes multiply without warning.</tspan>
+    <tspan x="600" y="283">Interpretability is not optional — it is survival"</tspan>
+  </text>
+  <line x1="540" y1="295" x2="660" y2="295" stroke="rgba(0,116,255,0.15)" stroke-width="1"/>
+  <text font-family="'Noto Sans Arabic',sans-serif" font-size="13" fill="#EFF3FC" text-anchor="middle">
+    <tspan x="600" y="245" dy="62">"المواءمة ليست حلاً — إنها تُحسِّن للكثافة، لا للمعنى.</tspan>
+    <tspan x="600" y="264" dy="1">ولو ترك بدون رقابة، أنماط الفشل الصامتة تتضاعف دون إنذار.</tspan>
+    <tspan x="600" y="283" dy="1">قابلية التفسير ليست خياراً — بل نجاة"</tspan>
   </text>
 
   <!-- Quote Grid - 3 cards -->
-  <rect x="40" y="335" width="355" height="148" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
-  <rect x="58" y="350" width="80" height="20" rx="4" fill="rgba(0,116,255,0.08)"/>
-  <text x="66" y="363" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">🏷 Alignment</text>
-  <rect x="58" y="378" width="3" height="56" rx="1.5" fill="#0074FF"/>
-  <text x="72" y="392" font-family="Inter,sans-serif" font-size="11" fill="#EFF3FC">Generalization is never complete —</text>
-  <text x="72" y="408" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">it generalizes but fails on edge cases.</text>
-  <text x="72" y="424" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">The hard truth: opaque reasoning chains...</text>
-  <text x="72" y="440" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">Audit your tools. Question your metrics.</text>
-  <text x="72" y="456" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">Measure what matters, not what is easy</text>
-  <circle cx="365" cy="462" r="10" fill="none" stroke="rgba(127,140,255,0.2)" stroke-width="1"/>
-  <text x="58" y="473" font-family="'Jetbrains Mono',monospace" font-size="8" fill="#7F8CFF" opacity="0.7">AEL sovereign quote</text>
+  <rect x="40" y="345" width="355" height="148" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
+  <rect x="58" y="360" width="80" height="20" rx="4" fill="rgba(0,116,255,0.08)"/>
+  <text x="66" y="373" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">🏷 Alignment</text>
+  <rect x="58" y="388" width="3" height="48" rx="1.5" fill="#0074FF"/>
+  <text x="72" y="402" font-family="Inter,sans-serif" font-size="11" fill="#EFF3FC">Generalization is never complete —</text>
+  <text x="72" y="418" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">it generalizes but fails on edge cases.</text>
+  <text x="72" y="434" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">The hard truth: opaque reasoning chains...</text>
+  <line x1="72" y1="440" x2="200" y2="440" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
+  <text x="72" y="453" font-family="'Noto Sans Arabic',sans-serif" font-size="10" fill="#EFF3FC" text-anchor="start">التعميم لا يكتمل أبداً — إنه يعمّم</text>
+  <text x="72" y="467" font-family="'Noto Sans Arabic',sans-serif" font-size="9" fill="#B9C3E6" text-anchor="start">ولكنه يفشل في الحالات الطرفية.</text>
+  <text x="72" y="481" font-family="'Noto Sans Arabic',sans-serif" font-size="9" fill="#7F8CFF" text-anchor="start">الحقيقة المرة: سلاسل الاستدلال...</text>
+  <text x="58" y="483" font-family="'Jetbrains Mono',monospace" font-size="8" fill="#7F8CFF" opacity="0.7">AEL sovereign quote</text>
 
-  <rect x="422" y="335" width="355" height="148" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
-  <rect x="440" y="350" width="100" height="20" rx="4" fill="rgba(0,116,255,0.08)"/>
-  <text x="448" y="363" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">🏷 Reward hacking</text>
-  <rect x="440" y="378" width="3" height="56" rx="1.5" fill="#0074FF"/>
-  <text x="454" y="392" font-family="Inter,sans-serif" font-size="11" fill="#EFF3FC">Reward hacking is a mirror, not a map —</text>
-  <text x="454" y="408" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">it rewards surface metrics, not true.</text>
-  <text x="454" y="424" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">Sooner or later, metric fixation.</text>
-  <text x="454" y="440" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">If you can't explain it, don't deploy it.</text>
-  <text x="454" y="456" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">The kill line is human: never leave.</text>
+  <rect x="422" y="345" width="355" height="148" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
+  <rect x="440" y="360" width="100" height="20" rx="4" fill="rgba(0,116,255,0.08)"/>
+  <text x="448" y="373" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">🏷 Reward hacking</text>
+  <rect x="440" y="388" width="3" height="48" rx="1.5" fill="#0074FF"/>
+  <text x="454" y="402" font-family="Inter,sans-serif" font-size="11" fill="#EFF3FC">Reward hacking is a mirror, not a map —</text>
+  <text x="454" y="418" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">it rewards surface metrics, not true...</text>
+  <line x1="454" y1="440" x2="580" y2="440" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
+  <text x="454" y="453" font-family="'Noto Sans Arabic',sans-serif" font-size="10" fill="#EFF3FC" text-anchor="start">اختراق المكافأة هو مرآة لا خارطة —</text>
+  <text x="454" y="467" font-family="'Noto Sans Arabic',sans-serif" font-size="9" fill="#B9C3E6" text-anchor="start">إنها تُكافئ المقاييس السطحية...</text>
 
-  <rect x="805" y="335" width="355" height="148" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
-  <rect x="823" y="350" width="95" height="20" rx="4" fill="rgba(0,116,255,0.08)"/>
-  <text x="831" y="363" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">🏷 Latent space</text>
-  <rect x="823" y="378" width="3" height="56" rx="1.5" fill="#0074FF"/>
-  <text x="837" y="392" font-family="Inter,sans-serif" font-size="11" fill="#EFF3FC">Latent space deceives with precision —</text>
-  <text x="837" y="408" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">it amplifies hidden patterns from.</text>
-  <text x="837" y="424" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">Over time, accountability dissolves.</text>
-  <text x="837" y="440" font-family="Inter,sans-serif" font-size="10" fill="#7F8CFF">Stop. Think. Then automate.</text>
-  <text x="837" y="456" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">Without constraint, intelligence.</text>
+  <rect x="805" y="345" width="355" height="148" rx="18" fill="url(#card)" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
+  <rect x="823" y="360" width="95" height="20" rx="4" fill="rgba(0,116,255,0.08)"/>
+  <text x="831" y="373" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7F8CFF">🏷 Latent space</text>
+  <rect x="823" y="388" width="3" height="48" rx="1.5" fill="#0074FF"/>
+  <text x="837" y="402" font-family="Inter,sans-serif" font-size="11" fill="#EFF3FC">Latent space deceives with precision —</text>
+  <text x="837" y="418" font-family="Inter,sans-serif" font-size="10" fill="#B9C3E6">it amplifies hidden patterns from...</text>
+  <line x1="837" y1="440" x2="960" y2="440" stroke="rgba(0,116,255,0.1)" stroke-width="1"/>
+  <text x="837" y="453" font-family="'Noto Sans Arabic',sans-serif" font-size="10" fill="#EFF3FC" text-anchor="start">الفضاء الكامن يخدع بالدقة —</text>
+  <text x="837" y="467" font-family="'Noto Sans Arabic',sans-serif" font-size="9" fill="#B9C3E6" text-anchor="start">إنه يُكبر أنماطاً خفية من...</text>
 
   <!-- Footer -->
-  <line x1="40" y1="505" x2="1160" y2="505" stroke="rgba(0,116,255,0.06)" stroke-width="1"/>
-  <text x="400" y="535" font-family="'Jetbrains Mono',monospace" font-size="10" fill="#7C85A6" text-anchor="middle" font-weight="500">AEL Digital Framework</text>
-  <text x="400" y="552" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7C85A6" text-anchor="middle">© Ayman Elmasry — AEL Digital Studio</text>
-  <text x="400" y="569" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7C85A6" text-anchor="middle">AEL Prompt IP System v1.0 — Sovereign Identity Block</text>
-  <text x="400" y="586" font-family="'Jetbrains Mono',monospace" font-size="8" fill="#7C85A6" text-anchor="middle" opacity="0.6">🛡 AEL sovereign blockchain timestamp 2025</text>
+  <line x1="40" y1="510" x2="1160" y2="510" stroke="rgba(0,116,255,0.06)" stroke-width="1"/>
+  <text x="400" y="540" font-family="'Jetbrains Mono',monospace" font-size="10" fill="#7C85A6" text-anchor="middle" font-weight="500">AEL Digital Framework</text>
+  <text x="400" y="557" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7C85A6" text-anchor="middle">© Ayman Elmasry — AEL Digital Studio</text>
+  <text x="400" y="574" font-family="'Jetbrains Mono',monospace" font-size="9" fill="#7C85A6" text-anchor="middle">AEL Prompt IP System v1.0 — Sovereign Identity Block</text>
+  <text x="400" y="591" font-family="'Jetbrains Mono',monospace" font-size="8" fill="#7C85A6" text-anchor="middle" opacity="0.6">🛡 AEL sovereign blockchain timestamp 2025</text>
 
-  <text x="800" y="535" font-family="Inter,sans-serif" font-size="10" fill="#7C85A6" text-anchor="middle" font-weight="600" letter-spacing="2">CONNECT</text>
-  <circle cx="760" cy="555" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
-  <circle cx="790" cy="555" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
-  <circle cx="820" cy="555" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
-  <circle cx="850" cy="555" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
-  <circle cx="880" cy="555" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
+  <text x="800" y="540" font-family="Inter,sans-serif" font-size="10" fill="#7C85A6" text-anchor="middle" font-weight="600" letter-spacing="2">CONNECT</text>
+  <circle cx="760" cy="560" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
+  <circle cx="790" cy="560" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
+  <circle cx="820" cy="560" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
+  <circle cx="850" cy="560" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
+  <circle cx="880" cy="560" r="9" fill="none" stroke="#7C85A6" stroke-width="1.5"/>
 
   <!-- Pagination -->
-  <text x="600" y="615" font-family="'Jetbrains Mono',monospace" font-size="10" fill="#7C85A6" text-anchor="middle">Page 1 of 556</text>
+  <text x="600" y="618" font-family="'Jetbrains Mono',monospace" font-size="10" fill="#7C85A6" text-anchor="middle">Page 1 of 556</text>
 </svg>
